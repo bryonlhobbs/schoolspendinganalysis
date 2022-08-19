@@ -1,0 +1,22 @@
+99E 160000100
+ Fund 99
+Fund 99 Other Package and Cooperative Program Fund
+This fund is to be used for all other types of cooperative instructional funds. No fund balance or deficit can exist in this fund. Special
+education related cooperative programs should be accounted for in Fund 27.
+
+10E 160000100
+Instructional Funds
+Instructional funds are funds where elementary and secondary instruction (i.e. K-12) activities (100 000 function series) pupil
+support activities (210 000 function series) or instructional staff support (220 000 function series) are recorded.
+Fund 10 General Fund
+This fund is used to account for all financial transactions relating to the district’s current operations, except for those required to be
+accounted for in other funds.
+
+https://dpi.wi.gov/sfs/reporting/safr/budget/data-download#Budget_2017-2018
+Budget report download
+by fiscal year
+
+160000 Co-Curricular Activities
+Instructional activities under the guidance and supervision of school staff designed to provide students such experiences as
+motivation, enjoyment and improvement of skills. Co-curricular activities supplement the regular instructional activities and include
+such activities as band, chorus, speech and debate, athletics.

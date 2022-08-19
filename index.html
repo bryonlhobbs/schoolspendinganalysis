@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>The Impact of Activity Funding on Students Pursuing Higher Education</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!--Navbar Start-->
+    <div class="navbar navbar-expand-lg bg-light navbar-light nav-sticky">
+        <div class="container-fluid">
+           <button
+           type="button"
+           class="navbar-toggler"
+           data-toggle="collapse"
+           data-target="#navbarCollapse">
+           <span class="navbar-toggler-icon"></span>
+           </button>
+           <div 
+           class="collapse navbar-collapse justify-content-between" 
+           id="navbarCollapse">
+               <div class="navbar-nav ml-auto">                
+                   <a href="#summary" class="nav-item nav-link active">Project Summary</a>
+                   <a href="#source" class="nav-item nav-link">Data Source</a>
+                   <a href="#question" class="nav-item nav-link">Question</a>
+                   <a href="#storage" class="nav-item nav-link">Database Design/Processing</a>
+                   <a href="#explore" class="nav-item nav-link">Data Exploration</a> 
+                   <a href="#machinelearning" class="nav-item nav-link">Machine Learning</a>
+                   <a href="#results" class="nav-item nav-link">Results</a>
+                   <a href="#workflow" class="nav-item nav-link">Technologies Used</a>
+                   <a href="#team" class="nav-item nav-link">Team</a>
+                </div>
+           </div>
+        </div>
+    </div>
+    <!--Navbar End-->
+
+   <!--Summary Start-->
+   <br>
+   <br>
+   <div class="summary">
+     <div class="summary" id="summary">
+         <div class="container-fluid">
+          <img src="img/art.png" alt="brain_icon">
+             <div class="summaryplaceholder" style="position: relative;">
+               <br>
+               <br>
+               <br>
+             <h1><center>Project Summary</center></h1>
+             <h6><center>
+              Academic success can be the framework to a young individuals whole future. Dreams of being an astronaut, doctor, or trades worker can inspire someone to work to the best of their abilities in order to achieve that goal. While school systems are very structured and provide strict educational programming, there are many factors that go into each students’ accomplishments. In this analysis, we will be using multiple sources to determine whether there are any significant relationships between a student choosing to seek higher education and high school district demographics, financial characteristics, and extra-curricular funding, specifically in Wisconsin.
+              <br>
+              <br>
+              Attending school isn’t strictly about academics and acing every test. School is a time when children form habits, create relationships, set goals, and develop new passions. Providing the opportunities for each student is essential and can determine the future path they take. There are many impacting factors that go into budgetary needs. Our analysis will determine the amount of funding provided per student in academic departments verses extra activity departments in determining the child’s chances of pursuing secondary education.
+              <br>
+              <br>
+              School Districts have a lot to take into account when it comes to finding a balance in funding academics, assisted programs, extra-curricular activities, and other budgetary needs. The National Center for Education Statistics states “Extracurricular activities provide a channel for reinforcing the lessons learned in the classroom, offering students the opportunity to apply academic skills in a real-world context, and are thus considered part of a well-rounded education.” Through much of their research, they were able to provide statistical backing based on data collected from US public schools. Other organizations, such as the National Federation of State High School Associations, have done research on the importance of funding these activities even though they only make up a small portion of the overall budgetary funding provided per student. The benefits of budget allocation to these programs not only boost the academic success of its students, but improve community standards and create well rounded individuals that will continue on to have positive impacts on society.
+              <br>
+              <br>
+              When parents are considering schools, they not only take into account the success of academic ratings, but the additional activities and organizations it has to offer. With careful budget analysis, school can set themselves up for the most success and an opportunity for growth by attracting more students, creating a positive reputation, and providing resources for each student to thrive.
+             
+            </center></h6>
+             <br>
+             <br>
+             <br>
+             </div>
+         </div>
+     </div>
+   </div>
+   <!--Summary End-->
+
+    <!--Source Start-->
+    <br>
+    <br>
+    <div class="source">
+      <div class="source" id="source">
+        <div class="source wow fadeInUp" data-wow-delay="0.1s" id="source" style="visibility: visable; animation-delay: 0.1; animation-name: fadeInUp;">
+          <div class="container-fluid">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                  <div class="question-img">
+                    <img src="img/wiscon_dpi.jpg" alt="wdpi_image" width="500" height="400" />
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="question-content">
+                  <div class="section-header text-left">
+                    <br>
+                    <br>
+                    <br>
+                    <p>
+                      Data Source
+                    </p>
+                    <br>                                
+                    <div class="question-text">
+                    <h2>Wisconsin Department of Public Instruction</h2>
+                    <br>
+                    <h6>The Department of Public Instruction is the state agency that advances public education and libraries in Wisconsin. Their mission is to ensure that every child, regardless of zip code, has access to quality public education programs, enrichment opportunities, and special education supports, so that all of the children in Wisconsin can be successful. Through the WDPI site, we were able to explore available data pertaining to school performance, budgetary allocation, economic demographics, enrollment in post-secondary education, as well as other public records. 
+                        With this information we could explore a possible correlation between funding towards extracurricular activities and a students odds of continuing their education. In this analysis, we only took into account information provided for the 2017-2018 school year.
+                      </h6>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Source End-->
+
+    <!--Research Question-->
+    <br>
+    <br>
+    <div class="question">
+    <div class="question wow fadeInUp" data-wow-delay="0.1s" id="question"style="visibility: visable; animation-delay: 0.1; animation-name: fadeInUp;">
+      <div class="container-fluid">
+          <div class="row align-items-center">
+              <div class="col-lg-4">
+                  <div class="question-img">
+                      <img src="img/aristotle.png" alt="aristotle_quote">
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                  <div class="question-content">
+                      <div class="section-header ">
+                        <br>
+                        <br>
+                        <br>
+                        <p>
+                          Research Question
+                        </p>
+                        <br>                                
+                        <div class="question-text">
+                        <h2>Can we predict the best range of funding towards extracurricular activities that  
+                            promotes continuing education, taking into account economic demographics, district information and overall funding?</h2>
+                        <br>
+                        </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <!--Research Question End-->
+
+    <!-- Banner Start -->
+    <div class="banner wow zoomIn" data-wow-delay="0.1s" id="storage"style="visibility: visable; animation-delay: 0.1; animation-name: fadeInUp;">
+      <div class="container">
+        <div class="section-header text-center">
+          <h2>Database Design
+          </h2>
+        </div>
+        <div class="container banner-text">
+          <p>Postgres database is spun up on AWS RDS instance to store the data, generate dashboards and perform the analysis. The data is transformed, cleansed and inserted into this database using python scripts.
+          </p>
+          <img src="img/database.png" alt="database"  width="700" height="160" />
+        </div>
+      </div>
+    </div>
+  <!-- Banner End -->
+
+  <!--Database Design Details Start-->
+  <div class="storage" id="storage">
+      <div class="container">
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s" style="visibility: visable; animation-delay: 0.1; animation-name: fadeInUp;">
+          <p>Database Processing</p>
+          <h2>Data Manipulation</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="storage-item wow fadeInUp" data-wow-delay="0.1s" style="visibility: visable; animation-delay: 0.1; animation-name: fadeInUp;">
+              <div class="storage-img">
+                <img src="img/schema.png" alt="schema">
+              </div>
+              <div class="storage-text">
+                <h2>Initial Schema</h2>
+                <div class="storage-meta">
+                </div>
+                <p>
+                  The Wisconsin Department of Public Instruction provides a significant amount of data pertaining to demographics, the educational system, funding distribution, etc. Our schema shows the initial data that we had selected to take into consideration in our analysis. The primary key used to link all of the seperate csv files was district ID.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="storage-item wow fadeInUp" data-wow-delay="0.3s" style="visibility: visable; animation-delay: 0.1; animation-name: fadeInUp;">
+              <div class="storage-img">
+                <img src="img/query1.png" alt="query">
+              </div>
+              <div class="storage-text">
+                <h2>Database Containing High School Information</h2>
+                <div class="storage-meta">
+                </div>
+                <p>After combining csv files, we transformed the data by deleting rows with null values, removing columns that didn't impact our analysis, and calculating new rows to more clearly form conclusions, we had a dataframe that contained information such as funding, school performance ratings, and socioeconomic factors.
+                </p>
+              </div>
+            </div>   
+           </div>
+          </div>
+        </div>
+      </div>
+      ">"
+      <div class="storage" id="storage">
+        <div class="container">
+          <div
+            class="section-header text-center wow zoomIn"
+            data-wow-delay="0.1s" style="visibility: visable; animation-delay: 0.1; animation-name: fadeInUp;">
+          </div>
+          <div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="storage-item wow fadeInUp" data-wow-delay="0.1s" style="visibility: visable; animation-delay: 0.1; animation-name: fadeInUp;">
+                <div class="storage-img">
+                  <img src="img/query.png" alt="query1">
+                </div>
+                <div class="storage-text">
+                  <h2>Database Containing Post-Secondary Information</h2>
+                  <div class="storage-meta">
+                  </div>
+                  <p>Much like the database containing hich school performance, demographics and funding, we transformed the data in our post secondary file to pertain more to this particular analysis by removing unwanted columns, and grouping values.
+                  </p>
+                </div>
+              </div>
+            </div>
+          <div class="col-lg-6">
+            <div class="storage-item wow fadeInUp" data-wow-delay="0.3s" style="visibility: visable; animation-delay: 0.1; animation-name: fadeInUp;">
+              <div class="storage-img">
+                <img src="img/origrevdf.png" alt="rev">
+                <img src="img/revcleanexample.png" alt="rev1">
+                <img src="img/updatedrevdf.png" alt="rev2">
+              </div>
+              <div class="storage-text">
+                <h2>Example of Data Cleaning </h2>
+                <div class="storage-meta">
+                </div>
+                <p>
+                </p>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--Database Design Details End-->
+
+    <!--Data Exploration Start-->
+    <div class="explore" id="explore">
+        <div class="container">
+            <div class="section-header text-center wow zoomIn"
+            data-wow-delay="0.1s">
+            <p>Data Exploration</p>
+            <br>
+            <h2>Data Exploration and Initial Analysis</h2>
+            <p> Initial data examination and identification began with making choices on what and how to scrape from the DPI site. Publicly available data goes back more than twenty years, so it was necessary for the team to first narrow down the scope. While a recent two- to three-year scope was identified by the team as desirable to examine trends, the global pandemic had a significant effect on school district reporting and trends, so a decision was made to collect data from the 2017-18, 2018-19, 2019-20, 2020-21, and 2021-22 school years. In this way, the team hoped to focus on multiple year trends and the most recent data, while still allowing for anomalous data from the years affected most by the pandemic.
+  
+              Examination began by pulling all available data for each year, joining the tables to create tables that reflected the longitudinal data for each report in preparation for more detailed examination, database creation, and table joins and querying.</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                <div class="explore-item">
+                    <div class="explore-text">
+                        <h3>Revenue Impact on Achievement Scores</h3>
+                        <p> A very basic analysis of overall funding and its impact on achievement scores can be completed as seen below; however, there are many factors that need to be taken into account to determine a monetary value that ensures the success of each student.  To further explore adequet funding that yeilds high achievement scores/continuing education, we will narrow our search to impactful information and make sure data is evenly weighed per student. </p>
+                        <img src="img/plot9.png" alt="overall_funding" width="375" height="300">
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="explore-item">
+                    <div class="explore-text">
+                        <h3>Data Availability </h3>
+                        <p>While pulling data, the team immediately identified two confounding factors: post-secondary data has not yet been reported and uploaded to DPI for the 2021-22 school year, and school district report card data is not available for the 2019-20 school year.</p>
+                          <img src="img/NoRptCd2019.png" alt="report" width="350" height="125">
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                <div class="explore-item">
+                    <div class="explore-text">
+                        <h3>Data Point Inconsistency</h3>
+                        <br>
+                        <p>Individual fields within the collected data that purported to show the same data still contained inconsistencies. For example, one report may refer to district 14 as "Adams-Friendship Area" and another as "Adams Friendship Area Schools". Most reports also contained student enrollment data, but the data varied slightly due to the points in time when it was collected. Districts report enrollment on the third Friday of September, but post-secondary enrollment reporting is based on much more dyniamic sources of information.
+  
+                          Other important outlier data included district types. Typical extracurricular spending increases at the secondary level. While most districts within the state are K-12 (meaning they serve students from kindergarten through twelfth grade), there are a number of other configurations. For example, the Big Foot Joint School District is a 9-12 only district, serving four separate K-8 districts as a consolidated high school. Although the students all flow up to the same secondary school district, each feeder district maintains it's own costs, revenues, and budgets.</p> 
+                        
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="explore-item">
+                    <div class="explore-text">
+                        <h3>Data Size</h3>
+                        <p>In order to gather specific data on extracurricular program, which is coded as "Co-Curricular Activities" in Wisconsin school district financial reporting documents, the team needed to pull full budgetary details for each school district over each year. The State of Wisconsin makes all of this data available, but because the data includes every single coded expenditure for every district for the entire school year, each year is split into multiple files. When combining this data, the team needed to make multiple decisions in order to pare the data down. Initial attempts to join the tables led to creation of a database that was so large even Google CoLab was unable to parse it.</p>
+                            <img src="img/datasizestruggle.png" alt="size" width="500" height="50" >
+                            <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>   
+    </div>
+    <!--Data Exploration End-->
+
+     <!--Tableau Dashboard Start-->
+<div class='tableauPlaceholder' id='viz1659749105215' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;Activity_Spending_Education&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Activity_Spending_Education&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ac&#47;Activity_Spending_Education&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1659749105215');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='1650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    <!--Machine Learning Banner End -->
+    <div class="banner wow zoomIn" id="machinelearning" data-wow-delay="0.1s">
+        <div class="container">
+          <div class="section-header text-center">
+            <h2>Random Forest Machine Learning Approach</h2>
+          </div>
+          <div class="container banner-text">
+            <p>Random forest is a Supervised Machine Learning Algorithm that is used widely in Classification and Regression problems. It uses bagging and feature randomness when building each individual tree to try to create an uncorrelated forest of trees whose prediction by committee is more accurate than that of any individual tree.
+            </p>
+            <br>
+            <img src="img/randomforest.png" alt="random_tree" />
+          </div>
+        </div>
+      </div>
+    <!--Machine Learning Banner End -->
+
+    <!--Machine Learning Overview Start-->
+    <br>
+    <br>
+    <div class="question wow fadeInUp" data-wow-delay="0.1s" id="machinelearning">
+        <div class="container-center">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <div class="question-img">
+                    <img src="img/tree.jpg" alt="random_forest" />
+                </div>
+            </div>
+                <div class="col-lg-6">
+                    <div class="question-content">
+                        <div class="section-header text-center">
+                                <p> Random Forest Model</p>
+                                <br>  
+                                <br>                              
+                                <div class="question-text">
+                                    <h6> The data, once taken in, required some preprocessing to get it ready for machine learning. This involved removing identifying columns and columns where there weas only one unique value throughout the data.</h6>
+                                    <img src="img/rf1.png" alt="rf1"  width="775" height="100">
+                                    <h6> The feature selection was done mostly in cleaning the data, as we, as a team, determined what data was worth considering. We had determined that spending in other areas of school administration were not needed for this analysis. The data was split using train_test_split to ensure a random sample.
+                                    </h6>
+                                    <img src="img/rf2.png" alt="rf2"  width="700" height="100">
+                                    <h6> Model choice was initially a struggle, which led to a switch part way through the project. While we initially wanted to try a deep neural network, we found that it was the wrong choice. With some advisement from the instruction team, we settled on Random Forests as our machine learning model. While we were unable to find the “sweet spot” of spending, we were able to determine which factors were the most important for our data.</h6>
+                                    <img src="img/rf3.png" alt="rf3"  width="700" height="500">
+                                    <h6> Our accuracy in this model was based on MAE, MSE, and oob (Out of Bag) score. The MAE and MSE were large, but we suspect that was due to the large numbers used in this analysis.
+                                    </h6>
+                                    <img src="img/rf4.png" alt="rf4"  width="700" height="200">
+                                    <h6> However, the oob score, which is recommended to be between 0.75 and 1.0, was very close to 1.0, suggesting a strong model without overfitting.
+                                    </h6>
+                                    <img src="img/rf5.png" alt="rf5"  width="700" height="200">
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Machine Learning Overview End-->
+
+    <!--Machine Lerning Results Start-->
+    <div class="results" id="results">
+        <div class="container">
+            <div class="section-header text-center wow zoomIn"
+            data-wow-delay="0.1s">
+            <p>Results</p>
+            <br>
+            <h2>Machine Learning Results</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                <div class="results-item">
+                    <div class="results-text">
+                        <h3>Number of Students Analysis</h3>
+                        <p> 
+                          <img src="img/plot.png" alt="counties" width="475" height="350">
+                          <img src="img/plot1.png" alt="counties" width="475" height="350">
+                          <img src="img/plot2.png" alt="counties" width="475" height="350">
+                        </p>
+                        <p>...</p>
+                        <br>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="results-item">
+                    <div class="results-text">
+                        <h3>Percent Economically Disadvantaged Students Analysis</h3>
+                        <img src="img/plot3.png" alt="counties" width="475" height="350">
+                        <img src="img/plot4.png" alt="counties" width="475" height="350">
+                        <img src="img/plot5.png" alt="counties" width="475" height="350">
+                        <p>...</p>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                <div class="results-item">
+                    <div class="results-text">
+                        <h3>Total Revenue Analysis </h3>
+                        <img src="img/plot6.png" alt="counties" width="475" height="350">
+                        <img src="img/plot7.png" alt="counties" width="475" height="350">
+                        <img src="img/plot8.png" alt="counties" width="475" height="350">
+                        <p>...</p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="results-item">
+                    <div class="results-text">
+                        <h3>Overall Conclusion</h3>
+
+                        <p>Once data had been cleaned and filtered down into a set usable with the resources we had available (limiting post-secondary data to only full sets by school and limiting spending and achievement data to only the 2017-18 school year), we were not able to pinpoint a “sweet spot” of extracurricular spending per student. However use of the Random Forests model allowed the team to identify important factors. The three most important factors were total revenue, number of students, and the percentage of economically disadvantaged students. While "group count" showed in our model as an important factor, it is a direct subset of the number of students, so was excluded from our final analysis. After reviewing the results and correlations shown within the model, it was clear that larger, more affluent school districts (those with higher student counts and higher levels of revenue per student) are best poised to spend highly on extracurricular activites.
+                          <br>
+                          <br>
+                          Several factors merit further analysis using resources not available to a student group. Revenue levels per student are particularly sticky in Wisconsin, given the implementation of revenue growth caps in 1993. Since then, school districts have been limited to increasing their revenues within specific areas to a specific percentage, unless they use a referendum. Arguments have been made that the growth cap has artificially frozen districts into spending models that are not reflective of their current makeup and structure (https://www.wpr.org/rising-referendums-school-funding-101). Further longitudinal dives into the specific revenue levels per student historically may shed light on whether districts that have seen dramatic changes in makeup since the 1993 freeze are able to adjust and provide the same levels of extracurricular spending allowed by districts that have remained unchanged.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>   
+    </div>
+
+    <!--Machine Lerning Results End-->
+    
+  <!--  Technologies Start -->
+  <div class="banner wow zoomIn" data-wow-delay="0.1s" id="workflow">
+  </div>
+    <div class="container">
+      <div class="section-header text-center">
+        <h2>Technologies Used for Analysis
+        </h2>
+      </div>
+      <div class="container banner-text">
+        <p>Throughout this project, there will be various technologies used in order to form our analysis, and create a dashboard that will easily communicate the results to school district personnel, parents, or other curious individuals on the importance of funding allocations roll in student pursing higher education. Python will be our main programming language to conduct our analysis. Jupyter Notebook, SQL Postgres, and Google Colab will be the interactive web tool we will use to create computational output and visualizations. Machine learning concepts will be used to predict the impact of all variables within the data, with a focus on budgetary allotment to extracurricular activities, and the chances of a student continuing their education following high school. Once we have collected all of our data, altered the content to our needs, and created visual representations, we will use Flask to create a dashboard that clearly displays our findings. Amazon web service (AWS) may be used in cloud computing solutions, database storage, and content delivery.
+        </p>
+        <img src="img/technologies.png" alt="tech" width="1100" height="250">
+      </div>
+    </div>
+  </div>
+<!-- Banner End -->
+    <!-- Team Start -->
+     <div class="team" id="team">
+      <div class="container">
+        <div
+          class="section-header text-center wow zoomIn"
+          data-wow-delay="0.1s">
+        </div>
+          <p><center>Meet the Team</center></p>
+          <br>
+          <h2><center>Team Members</center></h2>
+          <br>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+            <div class="team-item">
+              <div class="team-img">
+                <img src="img/bryon.png" alt="Image" />
+              </div>
+              <div class="team-text">
+                <h2>Bryon Hobbs</h2>
+                <div class="team-social">
+                  <a class="btn" href="https://github.com/bryonlhobbs"><i class="fab fa-github"></i></a>
+                  <a class="btn" href="https://www.linkedin.com/in/bryon-hobbs-482855181/"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="team-item">
+              <div class="team-img">
+                <img src="img/brenda.png" alt="Image"/>
+              </div>
+              <div class="team-text">
+                <h2>Brenda Johansen</h2>
+                <div class="team-social">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="team-item">
+              <div class="team-img">
+                <img src="img/lalita.png" alt="Image"/>
+              </div>
+              <div class="team-text">
+                <h2>Lalita Ponnapalli</h2>
+                <div class="team-social">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+            <div class="team-item">
+              <div class="team-img">
+                <img src="img/staci.png" alt="Image" alt="Image" />
+              </div>
+              <div class="team-text">
+                <h2>Staci Stapleton</h2>
+                <div class="team-social">
+                  <a class="btn" href="https://github.com/slstapleton"><i class="fab fa-github"></i></a>
+                  <a class="btn" href="www.linkedin.com/in/staci-stapleton"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Back to top button -->
+    <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- Pre Loader -->
+    <div id="loader" class="show">
+      <div class="loader"></div>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
